@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css"> <!--?Enlaza la hoja de estilo css  -->
+    <link rel="shortcut icon" href="../img/logo.png"> <!--?Agrega el favicon, el logo que se visualiza en la pestaña del navegador -->
+    <link rel="stylesheet" href="../lib/fontawesome-free-6.5.1-web/css/all.min.css"> <!--?Enlaza los iconos descargados de Font Awesome para poder escrbir su código en la hoja html -->
+    <style>@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);</style>
+    <style>@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);</style>
+    <title>Golden Media</title>
+  </head>
+  <body>
+
+    <!-- BOTÓN IR ARRIBA -->
+
+    <a href="../view/index.html">
+      <button onclick="topFunction()" id="myBtn" class="top-button"><span class="fas fa-angle-up"></span></button>
+    </a>
+
+
+
+    <!-- MENÚ PRINCIPAL -->
+
+    <div class="menu-principal"> <!--TODO: Contenedor principal-->
+
+      <div class="logo" id="logo"> <!--?id es para javascript-->
+        <img src="../img/logo.png" alt="Logo_GoldenMedia">
+      </div>
+      <aside class="encabezado">
+        <h1 class="titulo">GOLDEN MEDIA</h1>
+        <h2 class="subtitulo">Conectando generaciones, creando oportunidades</h2>
+      </aside>
+      <div class="menu-bar" id="menuBar">
+        <i class="fas fa-angle-right" id="btnMenuClose"></i>
+        <nav>
+          <div class="enlace" id="enlace">
+            <ul> <!--?Lista desordenada-->
+              <li><a href="#Servicios">Servicios</a></li> <!--* li = elementos de lista. a = enlaces-->
+              <li><a href="#Equipo">Equipo</a></li>
+              <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="sociales">
+          <a href="https://twitter.com/_GoldenMedia_" rel="X" target="_blank"><span class="fab fa-x-twitter"></span></a>
+          <a href="https://www.youtube.com/@goldenmedia_bcn" rel="youtube" target="_blank"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+      <i class="fas fa-bars" id="btnMenuOpen"></i>
+    </div>
+
+    <!-- CONTENIDO -->
+    <section class="grid">
+        <header>
+              <h1>Quienes somos<img src="../img/oficina.jpg" alt="Oficina_GoldenMedia"></h1>
+              <p>Golden Media es una empresa dedicada a enseñar, educar, asesorar y prestar servicio técnico a las personas mayores
+              con las nuevas tecnologías.
+              <br> <!--*Salto de línea-->
+              Nuestra misión es facilitar el acceso y el uso de las herramientas digitales a las personas de la tercera edad, para que 
+              puedan disfrutar de los beneficios que ofrecen y mejorar su calidad de vida.
+              <br>
+              Nuestra visión es ser una empresa líder en el sector de la educación y el soporte tecnológico para las personas mayores, 
+              reconocida por su profesionalidad, calidad y cercanía. 
+              Nuestros valores son la innovación, la pasión, la confianza, el compromiso y la responsabilidad social. Contamos con un equipo humano 
+              formado por expertos en tecnología, pedagogía, y comunicación, que se encargan de diseñar, impartir y evaluar los cursos, 
+              talleres y actividades que ofrecemos a nuestros clientes. Además, disponemos de un servicio de atención al cliente y de asistencia 
+              técnica personalizada, que resuelve cualquier duda o problema que puedan tener las personas mayores con sus dispositivos o aplicaciones.
+              <br> 
+              En Golden Media creemos que la tecnología es una oportunidad para aprender, comunicarse, divertirse y estar conectado con el mundo. Por eso, 
+              queremos ayudar a las personas mayores a aprovecharla al máximo, con seguridad y confianza. Si quieres saber más sobre nosotros, contacta
+              con nosotros a través de este enlace o entra en nuestro perfil de X (Twitter) y escríbenos. Estaremos 
+              encantados de atenderte y de compartir contigo nuestra pasión por la tecnología.
+              ¡Te esperamos!
+              </p> <!--?en span irá un enlace-->
+        </header>
+        <article class="contenido1" id="Servicios">
+              <h1>Servicios</h1>
+              <div class="servicios">
+                <i class="fas fa-paint-brush"></i>
+                <h2>Cursos y talleres:</h2>
+              </div>
+                <p>Impartimos cursos y talleres presenciales y online sobre diferentes temas relacionados con la tecnología, como el uso de internet, 
+                  las redes sociales, el correo electrónico, la seguridad informática, las aplicaciones móviles, el comercio electrónico, la fotografía
+                  digital, etc. Los cursos y talleres están adaptados al nivel y al ritmo de aprendizaje de las personas mayores, y 
+                  cuentan con material didáctico y ejercicios prácticos.</p>
+              <div class="servicios">
+                <i class="fas fa-people-arrows"></i>
+                <h2>Asesoramiento personalizado:</h2>
+              </div>
+                <p>
+                  Ofrecemos un servicio de asesoramiento personalizado para ayudar con el dispositivo o la aplicación más adecuada para sus necesidades 
+                  y preferencias, así como para resolver cualquier duda o consulta que tengan sobre el funcionamiento o la configuración de los mismos. El servicio de asesoramiento 
+                  se puede solicitar por teléfono, por correo electrónico o por videoconferencia.
+                </p>
+              <div class="servicios">
+                <i class="fas fa-wrench"></i>
+                <h2>Servicio técnico:</h2>
+              </div>
+                <p>
+                  Disponemos de un servicio técnico especializado para reparar, actualizar o instalar cualquier dispositivo o aplicación que tengan o quieran adquirir. 
+                  El servicio técnico se puede realizar a domicilio o en el centro de la empresa, según la conveniencia del cliente. 
+                  El servicio técnico incluye una garantía de calidad y un seguimiento posterior.
+                </p>
+              <div class="servicios">
+                <i class="fas fa-dice"></i>
+                <h2>Actividades lúdicas y sociales:</h2>
+              </div>
+                <p>
+                  Organizamos actividades lúdicas y sociales para fomentar el uso de la tecnología como una forma de ocio y de integración social. 
+                  Algunas de las actividades que realizan son: juegos online, concursos, sorteos, charlas, debates, encuentros intergeneracionales, etc. 
+                  Las actividades se anuncian vía Whatsapp, correo electrónico y en nuestras RRSS, se puede participar de forma presencial o virtual.
+                </p>
+        </article>
+        <article class="contenido2" id="Equipo">
+              <h1>Equipo</h1>
+              <div class="team">
+                <img src="../img/joaquin.jpg" alt="Joaquin">
+                <div class="team-text">
+                  <h3>Joaquín</h3>
+                  <h4>Director</h4>
+                  <p> Joaquín es el director técnico. <br> Tiene 38 años y cuenta con estudios superiores de informática. 
+                    Su función principal es dirigir la empresa y la administración de la misma, así como apoyar y 
+                    supervisar al resto de trabajadores en todos los servicios que ofrecen. Especialmente, se encarga 
+                    de colaborar con Victor en el servicio técnico, donde demuestra sus amplios conocimientos y experiencia 
+                    en el ámbito de la informática y la electrónica. Joaquín es un líder eficaz, responsable y organizado, 
+                    que sabe motivar y coordinar a su equipo para lograr los mejores resultados.</p>
+                </div>
+              </div>
+
+              <div class="team">
+                <img src="../img/marta.jpg" alt="Marta">
+                <div class="team-text">
+                  <h3>Marta</h3>
+                  <h4>Directora</h4>
+                  <p> Marta es la directora de educación. <br> Tiene 42 años y tiene la carrera de pedagogía. Se ocupa de la parte 
+                    pedagógica de la empresa y de dirigir, y realizar junto a Natalia, el asesoramiento personalizado y las 
+                    actividades lúdicas y sociales. Marta tiene una amplia formación y experiencia en el campo de la educación, 
+                    la psicología y la comunicación. Su labor consiste en diseñar, impartir y evaluar los cursos y talleres que 
+                    se ofrecen a los clientes, adaptándolos a sus necesidades, intereses y ritmo de aprendizaje. Marta es una 
+                    profesional creativa, entusiasta y empática, que sabe transmitir su pasión por la tecnología y conectar 
+                    con las personas.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="team">
+                <img src="../img/natalia.jpg" alt="Natalia">
+                <div class="team-text">
+                  <h3>Natalia</h3>
+                  <h4>SAT y pedagogía</h4>
+                  <p> Natalia es técnica SAT y pedagoga. <br>
+                    Tiene 31 años y tiene la carrera de pedagogía y estudios superiores informáticos. Es la responsable de realizar 
+                    las actividades lúdicas y sociales, bajo la dirección de Marta, y se encarga de la parte técnica de dichas 
+                    actividades. También es la que lleva a cabo el asesoramiento personalizado junto a Marta. Natalia tiene 
+                    conocimientos y habilidades tanto en el ámbito de la tecnología como en el de la educación. Su trabajo consiste 
+                    en ayudar a los clientes a elegir y usar el dispositivo o la aplicación más adecuada para ellos, así como en 
+                    organizar y dinamizar actividades divertidas y sociales que fomenten el uso de la tecnología como una forma de 
+                    ocio y de integración. Natalia es una profesional dinámica, divertida y cercana, que sabe crear un ambiente de 
+                    confianza y de diversión.</p>
+                </div>
+              </div>
+
+              <div class="team">
+                <img src="../img/victor.jpg" alt="Victor">
+                <div class="team-text">
+                  <h3>Victor</h3>
+                  <h4>SAT y Community Manager</h4>
+                  <p> Victor es el técnico SAT y community manager. <br>
+                    Tiene 34 años y tiene estudios superiores de informática. Es el técnico de la empresa que se ocupa del servicio 
+                    técnico y de llevar las redes sociales de la empresa, con el apoyo de Joaquín. Victor tiene una gran destreza y 
+                    experiencia en el manejo de todo tipo de dispositivos y aplicaciones, así como en el uso de las redes sociales y 
+                    el marketing digital. Su trabajo consiste en reparar, actualizar o instalar cualquier dispositivo o aplicación que 
+                    los clientes tengan o quieran adquirir, así como en crear y difundir contenido atractivo y relevante sobre la empresa 
+                    y sus servicios en las redes sociales. Victor es un profesional competente, innovador y sociable, que sabe resolver 
+                    cualquier problema técnico y comunicar de forma efectiva y persuasiva.</p>
+                </div>
+              </div>
+        </article>
+        <article class="contenido3" id="Contacto">
+          <h1>Contacto</h1>
+          <div class="contacto">
+            <button class="btn" onclick="sendEmail()"><i class="fas fa-envelope-open"></i></button>
+            <button class="btn" onclick="redirectToWeb1()"><i class="fab fa-x-twitter"></i></button>
+            <button class="btn" onclick="redirectToWeb2()"><i class="fab fa-youtube"></i></button>
+          </div>
+        </article>
+        <footer>
+            <h5>Todos los derechos reservados &copy;</h5></a>            
+        </footer>
+    </section>
+    <script src="../js/app.js"></script> <!--?Enlaza la hoja JavaScript. Se coloca al final del Body para que esto sea lo último que cargue al abrir la página web -->
+  
+  </body>
+</html>
+
+    
